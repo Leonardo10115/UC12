@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: rgba(245, 245, 220, 0.788);
+
+}
+h2{
+    font-size: 20px;
+    
+}
+
+p{
+    font-size: 25px;
+    
+}
+
+img{
+    width: 400px;
+}
+
+button{
+
+    background-color: rgba(197, 148, 23, 0.637);
+    border: none;
+    border-radius: 10px;
+    padding: 1px 5px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(218, 165, 31, 0.753);
+}

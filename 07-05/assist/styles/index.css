@@ -1,0 +1,45 @@
+
+h1{ 
+    color: bisque; /* Muda a cor da fonte*/
+
+    background-color: black; /*Muda a cor do fundo*/
+
+    font-size: 45px; /*Muda o tamanho da fonte*/
+
+
+}
+h2{
+    color: chocolate;
+}
+.fundo-verde{
+    background-color: chartreuse;
+}
+
+img {
+    width: 500px;/*Muda a largura*/
+    height: 400px;/*Muda a altura*/
+}
+
+a{
+    text-decoration: none;/*muda a decoração no texto (sublinhado)*/
+    color: black;
+}
+
+button{
+    background-color: dimgrey;
+     border: none;/*muda a borda*/
+     border-radius: 15px;/*arredonda as bordas*/
+     color: azure;
+     padding: 5px 15px;/*muda o espaçamento dentro do elemento*/
+     
+     cursor: pointer;/*muda o estilo do cursor do mouse*/
+
+}
+/*aplica esse estilo quando passarmos o mouse em cima*/
+button:hover{
+    background-color: rgb(175, 173, 173);
+
+}
+
+
+
