@@ -1,0 +1,85 @@
+/*p{
+
+    background-color: yellow;
+    height: 100px;
+}
+
+a{
+    background-color: brown;
+}
+
+Ex:2
+div{
+    display: block;
+    background-color: blue;
+    width: 200px;
+    
+}
+div{
+    display: block;
+    background-color: blue;
+    width: 200px;
+    
+}
+
+
+Ex 3
+span{
+    display: inline-block;
+    width: 200px;
+    background-color: black;
+}
+Ex 4: Alterar o display do ex 3 para inline-Block
+
+
+Ex 5
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+Ex 6
+div{
+    width: 150px;
+height: 80px;
+background: gray;
+}
+.caixa-block {
+    display: block;
+}
+.caixa-inline {
+    display: inline;
+}
+.caixa-inline-block {
+    display: inline-block;
+}
+
+
+Ex 7
+div{
+    visibility: hidden;
+    width: 150px;
+height: 80px;
+background: gray;
+}
+
+a{
+        display: inline-block;
+        width: 200px;
+        background: gray;
+    
+}*/
