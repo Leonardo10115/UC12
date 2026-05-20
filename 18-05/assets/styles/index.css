@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+
+/*
+button{
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    border: none;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+.relative{
+    background-color: lightblue;
+    padding: 10px;
+    width: fit-content; /*vai ate onde o contudo dentro da div termina*/
+    position: relative; /*Só conseguimos usar top, left e etc por causa desse elemento*/
+    margin: 20px;
+}
+
+div{
+    background-color: blue;
+    width: fit-content;
+    padding: 20px;
+}
+.absolute{
+    background-color: orange;
+    padding: 1px;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    border-radius: 50%;
+}
+.whats{
+    width: 45px;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+
+}
+
+.scroll{
+    height: 250px;
+    overflow: scroll;
+    border: 1px solid gray;
+    padding: 0px 20xp;
+}
+
+.scroll h1{
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
+

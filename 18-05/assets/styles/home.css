@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.banner-principal{
+    height: 500px;
+    /*adiciona uma imagem como fundo da div*/
+    background-image: url(https://th.bing.com/th/id/R.faacc3c775a1865204579d59177a2a58?rik=fwCbRhSPRtQfAw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fHd-CR7-Wallpapers-HD-Desktop.jpg&ehk=dFH0J%2fKq%2bcWdxTII5Ct9C%2bL%2fo4JOHpKU%2fcws0hVPiV0%3d&risl=&pid=ImgRaw&r=0);
+    /*ajusta a imagem para ficar contida dentro da div*/
+    background-size: cover;
+    /*a imagem fica fixa mensmo quando rolamos a pagina num efeito paralaxe*/
+    background-attachment: fixed;
+}

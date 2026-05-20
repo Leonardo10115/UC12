@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.notificacao {
+    position: relative;
+    width: fit-content;
+    top: 10px;
+
+}
+.contador{
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    padding: 1px 1px;
+    border-radius: 50%;
+}
