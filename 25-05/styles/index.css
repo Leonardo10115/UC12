@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+/*
+.container-pai{
+    background-color: gray;
+    padding: 20px;
+    height: 500px;
+    /* torna o container flexivel
+    display: flex;
+
+    /* indica em que direção os filhos serão dispostos(linhas ou colunas) 
+    flex-direction: row;
+
+    /* indica como os filhos vão ser dispostos no eixo principal 
+       IMPORTANTE: em row o eixo principal é a horizontal. Em column o eixo principal é a vertical
+    
+    justify-content: center;
+
+    /* indica como os filhos vão ser dispostos no eixo secundário 
+       IMPORTANTE: em row o eixo principal é a vertical. Em column o eixo principal é a horizontal
+    
+    align-items: center;
+
+      /* gap espaça os itens dos filhos 
+    gap: 10px;
+
+      /* controla se os itens vão quebrar em linhas diferentes 
+    flex-wrap: wrap;
+
+    
+}
+.container-filho{
+   background-color:  rgba(0, 0, 0, 0.575);
+   padding: 20px;
+}
+
+
+.start{
+    align-self: flex-start;
+} 
+header{
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header nav{
+    background-color: rgb(134, 8, 8);
+    display: flex;
+    gap: 10px;
+}
+
+ header div{
+     background-color: rgb(5, 65, 5);
+     display: flex;
+     align-items: center;
+     gap: 10px;
+    }*/
+
+.container-pai{
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    height: 600px;
+}
+
+.container-filho{
+    background-color: rgba(0, 0, 0, 0.651);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin: 40px;
+    border: 3px solid black;
+     
+     
+}
+div img{
+    border: 3px solid rgba(245, 245, 220, 0.356);
+}
+
+.Neymar{
+    background-color:  rgba(65, 105, 225, 0.555);
+    width: 100px;
+    align-self: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.Messi{
+    background-color:  rgba(65, 105, 225, 0.555);
+    width: 100px;
+    align-self: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.Cr7{
+    background-color: rgba(65, 105, 225, 0.555);
+    width: 100px;
+    align-self: center;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: royalblue;
+    transform: scale(1.1);
+    transition: ease 1s;
+  }

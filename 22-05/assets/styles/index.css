@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    padding: 10px 30px;
+    
+    
+}
+
+nav{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+.banner-principal{
+    height: 80vh; /* 80% da altura da tela */
+    background-image: url(https://th.bing.com/th/id/R.faacc3c775a1865204579d59177a2a58?rik=fwCbRhSPRtQfAw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fHd-CR7-Wallpapers-HD-Desktop.jpg&ehk=dFH0J%2fKq%2bcWdxTII5Ct9C%2bL%2fo4JOHpKU%2fcws0hVPiV0%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover ;
+    background-position: center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.banner-info p{
+     width: 80%;
+     text-align: center;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+/* 
+.container-pai{
+    background-color: black;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;Quando usa isso, assim q diminuimos a tela eles vao para baixo do outro evitando bugs em telas menores como o do celular
+    gap: 20px;
+}
+
+.container-filho{
+    background-color: antiquewhite;
+    padding: 50px;
+} */
