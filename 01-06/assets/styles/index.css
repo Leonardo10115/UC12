@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    color: white;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+/* 
+aplica os estilos abaixo apenas paras telas que tem ATE 800px
+*/
+@media (max-width: 800px){
+    .menu-desktop{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        right: 10px;
+        padding: 7px;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
