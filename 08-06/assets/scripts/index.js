@@ -12,16 +12,73 @@ const perguntas = [
         texto: "Quem venceu a bola de ouro 1995?",
         opcoes: ["Maldini", "Romario", "Laudrup", "Weah"],
         correta: 3,
-        explicacao: "A seleção campeã EM 2006 foi a Itália "
+        explicacao: "Correto! George Weah foi o vencedor "
     },
 
     {
         categoria: "Futebol",
-        texto: "Quem foi o campeão da champions league de 1999?",
+        texto: "Quem foi o campeão da champions league de 2014?",
         opcoes: ["Barcelona", "Milan", "Real Madrid", "Manchester United"],
-        correta: 3,
-        explicacao: "O time vencedor desta edição da champions foi o Manchester United "
+        correta: 2,
+        explicacao: "O time vencedor desta edição da Champions foi o Real Madrid!"
     },
+     
+    {
+        categoria: "Futebol",
+        texto: "Que ano Pavel Nedved venceu a bola de ouro?",
+        opcoes: ["2000", "2003", "2001", "1999"],
+        correta: 1,
+        explicacao: "O ano que ele venceu foi em 2003!"
+    },
+
+    {
+        categoria: "Futebol",
+        texto: "Qual foi o segundo time em que Romario passou?",
+        opcoes: ["Flamengo", "Vasco", "Barcelona", "PSV"],
+        correta: 3,
+        explicacao: "O segundo time dele foi o PSV!"
+    },
+
+    {
+        categoria: "Futebol",
+        texto: "Qual desses times da bundesliga já jogou uma Champions League?",
+        opcoes: ["FC Augsburg", "Mainz 05", "SC Freiburg", "SV Werder Bremen"],
+        correta: 3,
+        explicacao: "O SV Werder Bremer ja jogou uma Champions League!"
+    },
+  
+    {
+        categoria: "Futebol",
+        texto: "Qual primeiro time a vencer a triplece coroa?",
+        opcoes: ["Ajax", "PSV Eindhoven", "Celtic", "Manchester United"],
+        correta: 2,
+        explicacao: "O primeiro time foi o Celtic em 1966/67!"
+    },
+
+    {
+        categoria: "Futebol",
+        texto: "Quem era o recordista de bola de ouro antes de Messi/C.Ronaldo?",
+        opcoes: ["Platini", "Beckenbauer", "Gullit", "Ronaldo"],
+        correta: 0,
+        explicacao: "O antigo vencedor era com 3 seguidas era Michael Platini!"
+    },
+
+    {
+        categoria: "Futebol",
+        texto: "Qual o maior perdedor de finais da Champions League?",
+        opcoes: ["Bayer de Munique", "Benfica", "Juventus", "Atletico de Madrid"],
+        correta: 2,
+        explicacao: "O maior perdedor de finais é a Juventus com 7 derrotas!"
+    },
+
+    {
+        categoria: "Futebol",
+        texto: "Qual o clube com mais derrotas na Champions League?",
+        opcoes: ["Ajax", "Porto", "Benfica", "Real Madrid"],
+        correta: 3,
+        explicacao: "O time com mais derrotas é o Real Mdrid com 121!"
+    },
+
 
 ];
 
@@ -46,7 +103,7 @@ const btnReiniciar = document.getElementById("btn-reiniciar");
 const numeroPergunta = document.getElementById("numero-pergunta");
 const placarAtual = document.getElementById("placar-atual");
 const barraFill = document.getElementById("barra-fill");
-const categoriaBadge = document.getElementById("categotia-badge");
+const categoriaBadge = document.getElementById("categoria-badge");
 const textoPergunta = document.getElementById("texto-pergunta");
 const opcoesContainer = document.getElementById("opcoes-container");
 const feedback = document.getElementById("feedback");
@@ -115,7 +172,7 @@ function responder(indiceEscolhido, btnClicado){
         feedbackIcone.innerHTML = "❌"
         feedbackTexto.textContent = `Errado! ${pergunta.explicacao}`;
     }
-    btnProxima.classList.remove("escolhido");
+    btnProxima.classList.remove("escondido");
 
     //Ultima pergunta: muda texto do botao
     if (indiceAtual === perguntas.length -1){
