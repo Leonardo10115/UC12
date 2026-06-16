@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.titulo{
+    background-color: antiquewhite;
+    height: 60px;
+    width: 270px;
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+
+.info-jogo{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.jogo{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+
+}
+
+.reiniciar-jogo{
+    background-color: rgb(207, 166, 63);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.principal{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.carta{
+    width: 90px;
+    height: 130px;
+    background-color: azure;
+    border-radius: 8px;
+    border: 2px solid black;
+}
