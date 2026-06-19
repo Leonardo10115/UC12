@@ -15,12 +15,12 @@ body{
 
 .titulo{
     background-color: antiquewhite;
-    height: 60px;
-    width: 270px;
-    font-size: 35px;
+    height: 80px;
+    width: 400px;
+    font-size: 50px;
     border: 2px solid black;
     border-radius: 15px;
-    margin: 40px;
+    margin: 15px;
 }
 
 
@@ -35,6 +35,8 @@ body{
     border: 2px solid black;
     border-radius: 8px;
     margin: 10px;
+    height: 60px;
+    width: 100px;
 }
 
 .jogo{
@@ -46,27 +48,44 @@ body{
 
 .reiniciar-jogo{
     background-color: rgb(207, 166, 63);
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 90px;
     border-radius: 10px;
     border: 2px solid black;
     margin: 10px;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color: rgb(214, 158, 16) ;
+    transform: scale(1.1);
+    transition: ease 1s;
+  }
+
 .principal{
-    width: 450px;
+    width: 550px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    background-color: black;
+    border-radius: 20px;
+   
 
 }
 
 .carta{
-    width: 90px;
-    height: 130px;
+    width: 100px;
+    height: 150px;
     background-color: azure;
     border-radius: 8px;
     border: 2px solid black;
+    margin: 10px;
+    
+}
+img{
+    width: 95px;
+    height: 146px;
+    border-radius: 5px;
 }
