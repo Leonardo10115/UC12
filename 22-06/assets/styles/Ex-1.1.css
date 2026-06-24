@@ -1,0 +1,36 @@
+.card {
+    background: var(--color-bg);
+    border: var(--radius-sm) solid var(--color-border);
+    border-radius: var(--radius-border);
+    padding: var(--spacing-md);
+    font-family: var(--font-body);
+  }
+  
+  .card:hover {
+    border-color: var(--color-border-hover);
+  }
+  
+  .card__titulo {
+    font-size: var(--font-size-md);
+    color: var(--color-titulo);
+    margin-bottom: 8px;
+  }
+  
+  .card__texto {
+    font-size: var(--font-size-texto);
+    color: var(--color-texto);
+  }
+
+   :root{
+    --color-bg: #ffffff;
+    --radius-sm:1px;
+    --color-border:#e5e7eb;
+    --radius-border: 8px;
+    --spacing-md: 1.5rem;
+    --font-body: 'inter', sans-serif;
+    --color-border-hover:  #3b82f6;
+    --font-size-md: 1.25rem;
+    --color-titulo: #1e1e1e;
+    --font-size-texto: 0.875rem;
+    --color-texto: #6b7280;
+  } 

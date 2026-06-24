@@ -1,0 +1,9 @@
+:root {
+    --hue: 220;
+  
+    --color-100: hsl(var(--hue), 70%, 90%);  /* mais claro */
+    --color-300: hsl(var(--hue), 70%, 70%);
+    --color-500: hsl(var(--hue), 70%, 50%);  /* tom base */
+    --color-700: hsl(var(--hue), 70%, 30%);
+    --color-900: hsl(var(--hue), 70%, 15%);  /* mais escuro */
+  }

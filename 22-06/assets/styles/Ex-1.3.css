@@ -1,0 +1,33 @@
+
+:root{
+
+ --spacing-xs: 0.25rem;
+ --spacing-sm: 0.50rem;
+ --spacing-md: 1rem;
+ --spacing-lg: 2rem;
+ --spacing-xl: 4rem;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.card{
+    background-color: gray;
+    border: 3px solid black;
+    padding: var(--spacing-lg);
+}
+.campo{
+    border: 2px solid black;
+    width: 25%;
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+.btn{
+    background-color: burlywood;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: 2px solid black;
+}
+button:hover {
+    background-color: rgb(221, 166, 95);
+    transform: scale(1.1);
+    transition: ease 1s;
+}

@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-bg:      #ffffff;
+  --color-surface: #f9fafb;
+  --color-text:    #1e1e1e;
+  --color-border:  #e5e7eb;
+}
+
+  .dark {
+    --color-bg:      #0f172a;
+    --color-surface: #1e293b;
+    --color-text:    #f1f5f9;
+    --color-border:  #334155;
+  }
+
+
+  body{
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  header{
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    height: 70px;
+  }
+
+  .card{
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+
+  }
+
+  button{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 30px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: gray ;
+    transform: scale(1.1);
+    transition: ease 1s;
+  }
+

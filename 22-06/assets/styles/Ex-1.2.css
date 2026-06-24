@@ -1,0 +1,28 @@
+
+
+  :root{
+    --color-bg: #1a1a2e;
+    --color-text:  #ffffff;
+    --color-text-muted:  #94a3b8;
+    --spacing-xl: 4rem;
+    --spacing-md: 1rem;
+    --font-body: 'Georgia', serif;
+    --font-size-base: 1rem;
+    --font-size-title: 2.667rem;
+
+  }
+   .hero{
+    background: var(--color-bg);
+    padding: var(--spacing-xl) var(--spacing-md);
+  }
+
+  .hero h1{
+    color: var(--color-text);
+    font-size: var(--font-size-title);
+    font-family: var(--font-body);
+  }
+  .hero p{
+     color: var(--color-text-muted);
+     margin-top: var(--spacing-md);
+     font-size: var(--font-size-base);
+  } 
