@@ -1,0 +1,14 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container { max-width: 1200px; margin: 0 auto; }
+
+.site-header { background: var(--color-primary); }
+
+.site-footer { padding: 2rem 0; }
