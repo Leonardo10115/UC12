@@ -2,11 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import UseEffectComponent from './UseEffectComponent'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [curtida, setCurtida] = useState(false)
 
-/*   const aumentar = () => {
+  const alternarCurtir = () => {
+    setCurtida(!curtida)
+  }
+  const adicionarCurtida = () => {
+    setCurtida(curtida + 1)
+  }
+
+   const aumentar = () => {
       setCount(count + 1)
   }
 
@@ -18,29 +27,33 @@ function App() {
     }
    const resetar = () => {
       setCount(0)
-  } */
+  } 
+  const [tema, setTema] = useState('claro')
+  const[coloDefundo, setCorDeFundo] = useState('white')
+  
 
   return (
     <>
-     {/*  <div className='flex flex-col items-center justify-center min-h-screen bg-gray-500 
-      text-white p-4'>
-        <div className='bg-gray-400 p-8 rounded-2xl shadow-lg text-center max-w-sm w-full'></div>
-        <h2 className='text-xl font-bold mb-4 text-gray-300'> Contador</h2>
+       <UseEffectComponent/>    
+      <div>
+        <h2>Contador</h2>
+        <h1>{count}</h1>
+        <button onClick={aumentar}>+</button>
+        <button onClick={diminuir}>-</button>
+        <button onClick={resetar}>Reset</button>
+      </div>
+     
+       <hr />
+      <div>
+        <h2> Botão Curtir</h2>
+        <button onClick={adicionarCurtida}>
+          Like 
+        </button>
+        <p style={{color: curtida >= 100 ? 'red' : 'black', fontWeight: 'bold'}}>
+          curtida: {curtida}
+        </p>
+      </div>
 
-        <h1 className='text-6xl font-extrabold my-6 text-indigo-400 transition-all'>
-          {count}
-        </h1>
-
-        <div className='flex gap-3 justify-center'>
-          <button onClick={aumentar} className=''>+</button>
-
-          <button onClick={diminuir} disabled={count === 0} 
-          className='bg-blue-600 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded-lg transition-colors 
-          shadow-md'> -</button>
-
-          <button onClick={resetar}>reset</button>
-        </div>
-      </div> */}
     </>
   )
 }
